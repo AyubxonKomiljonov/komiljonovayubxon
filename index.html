@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./project/plugins/aos/aos.css">
+  <link rel="stylesheet" href="./project/plugins/remixicon/remixicon.css">
+  <script src="./project/plugins/tailwind/tailwind.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            btnRed: '#FA3C45',
+            primary: "#C5010A",
+            textColor:'#92929D',
+            sectionColor: '#333333',
+            inputcolor: '#11142D'
+          }
+        },
+        container: {
+          center: true,
+        },
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="wrapper overflow-hidden">
+    <header class="bg-primary">
+      <nav class="py-8">
+        <div class="container flex justify-between items-center">
+          <img src="./" class="bg-slate-300  w-[150px] h-10" alt="">
+          <ul class="space-x-8 flex font-normal text-white">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Showroom</a></li>
+            <li><a href="#">Credit Simulation</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Page</a></li>
+          </ul>
+          <div class="space-x-8 flex items-center">
+            <img src="" class="bg-slate-300 rounded-full w-10 h-10 " alt="">
+            <button class="py-[14.5px] px-6 font-bold text-white bg-btnRed rounded-lg">
+              Add Your Item
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="text-center py-[120px]" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="font-bold text-6xl text-white">Model S</h1>
+      </div>
+    </header>
+    <main class="py-10 md:py-20 space-y-[56px]" >
+      <div class="container">
+        <section class="space-x-0 font-bold text-2xl" data-aos="fade-right" data-aos-delay="300">
+          <a href="#">
+            Home > 
+          </a>
+          <a href="#">
+            Cars > 
+          </a>
+          <a href="#">
+            Electric > 
+          </a>
+          <a href="#">
+            Tesla >
+          </a>
+          <a href="#">
+            Model S
+          </a>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-x-4">
+          <div class=" col-span-1 md:col-span-2 space-y-[56px] py-[56px]">
+            <div class="flex text-5xl font-bold justify-between" data-aos="fade-right">
+              <h1>Tesla</h1>
+              <h2 class="text-primary">
+                $120000
+              </h2>
+            </div>
+            <div class="grid grid-cols-3 gap-2">
+              <img src="" class=" bg-slate-300  border-lg col-span-3 h-[500px]" data-aos="fade-up" alt="">
+              <img src="" class=" bg-slate-300  border-lg col-span-1 h-[240px]" data-aos="fade-up" data-aos-delay="100" alt="">
+              <img src="" class=" bg-slate-300  border-lg col-span-1 h-[240px]" data-aos="fade-up" data-aos-delay="150" alt="">
+              <img src="" class=" bg-slate-300  border-lg col-span-1 h-[240px]" data-aos="fade-up" data-aos-delay="200" alt="">
+            </div>
+            <div>
+              <h1 class="text-[31px] font-bold mb-6 text-sectionColor" data-aos="fade-right">
+                Specification
+              </h1>
+              <p class="text-textColor text-justify" data-aos="fade-right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <iframe class="w-full h-[440px]" src="https://www.youtube.com/embed/sxWszokjdzg" title="MILLION JAMOASI 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+              <h1 class="text-[31px] font-bold mb-6 text-sectionColor" data-aos="fade-right">
+                Desciption
+              </h1>
+              <div class="grid  grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+                <div class="pb-4 border-b border-textColor flex items-center justify-between" >
+                  <div class="flex items-center mb-8">
+                    <i class="ri-inbox-line text-2xl py-4  px-5 rounded-full bg-primary text-white"></i>
+                    <p class="ml-4 text-textColor font-bold">
+                      Mileage
+                    </p>
+                  </div>
+                  <div class="mb-8">
+                    <h2 class="font-bold">
+                      322
+                    </h2>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+          </div>
+          
+          <div class="col-span-1 space-y-4 py-[160px]" data-aos="fade-left">
+            <div class=" space-y-6 text-white bg-primary text-center py-40 px-16 rounded-lg"  data-aos="fade-left">
+              <h1 class="text-4xl">
+                Special Offer for Today
+              </h1>
+              <p class="text-2xl">
+                10% Off for New Tesla Model S
+              </p>
+              <button class="py-3 px-5 border border-white rounded-lg">
+                Details
+              </button>
+            </div>
+            <div class="container space-y-6 flex flex-col justify-center items-center" data-aos="fade-down-left">
+              <input type="text" placeholder="imput your name" class="font-normal text-base text-pcolor py-4 pl-4 pr-[220px] border rounded-lg  border-border-color">
+              <input type="text" placeholder="imput your name" class="font-normal text-base text-pcolor py-4 pl-4 pr-[220px] border rounded-lg  border-border-color">
+              <input type="text" placeholder="imput your name" class="font-normal text-base text-pcolor pt-4 pb-[82px] pl-4 pr-[220px] border rounded-lg  border-border-color">
+            </div>
+            <div data-aos="fade-down-left">
+              <h1 class="mb-12 font-bold text-2xl text-inputcolor">Customer Advisor</h1>
+              <div class="space-y-4 flex justify-center items-center flex-col w-full">
+               <img src="" class="bg-slate-300 rounded-full flex justify-center items-center w-20 h-20 " alt="">
+               <p class="font-bold text-base text-inputcolor">David Yates</p>
+               <button class="py-[14.5px] px-6 font-bold text-white bg-btnRed rounded-lg">
+                View Profile
+              </button>
+              </div>
+            </div>
+            <div>
+              <h1 class="mb-10 font-bold text-2xl text-inputcolor">Featured Cars</h1>
+              <div class="space-y-6">
+                <div class="flex items-center space-x-6">
+                  <img src="" class=" bg-slate-300  border-lg w-20 h-20 rounded-lg " data-aos="fade-up" data-aos-delay="200" alt="">
+                  <div class="space-y-2" data-aos="fade-up">
+                    <p class="font-bold text-base text-inputcolor">
+                      Tesla Model X
+                    </p>
+                    <h2 class="text-primary font-bold text-2xl">
+                      $150000
+                    </h2>
+                    
+                  </div>
+                </div>
+                <div class="flex items-center space-x-6">
+                  <img src="" class=" bg-slate-300  border-lg w-20 h-20 rounded-lg " data-aos="fade-up" data-aos-delay="200" alt="">
+                  <div class="space-y-2" data-aos="fade-up">
+                    <p class="font-bold text-base text-inputcolor">
+                      Tesla Model X
+                    </p>
+                    <h2 class="text-primary font-bold text-2xl">
+                      $150000
+                    </h2>
+                    
+                  </div>
+                </div>
+                <div class="flex items-center space-x-6">
+                  <img src="" class=" bg-slate-300  border-lg w-20 h-20 rounded-lg " data-aos="fade-up" data-aos-delay="200" alt="">
+                  <div class="space-y-2" data-aos="fade-up">
+                    <p class="font-bold text-base text-inputcolor">
+                      Tesla Model X
+                    </p>
+                    <h2 class="text-primary font-bold text-2xl">
+                      $150000
+                    </h2>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h1 class="mb-10 font-bold text-2xl text-inputcolor">tags</h1>
+              <div class="space-y-5">
+                <div class="flex space-x-4 ">
+                  <button class="py-2 px-6 font-bold text-btnRed bg-white border   border-btnRed rounded-full" data-aos="fade-left">
+                    Electric Car
+                  </button>
+                  <button class="py-2 px-6 font-bold text-btnRed bg-white border   border-btnRed rounded-full" data-aos="fade-left">
+                    Battery
+                  </button>
+                </div>
+                <div class="flex space-x-4 ">
+                  <button class="py-2 px-6 font-bold text-btnRed bg-white border   border-btnRed rounded-full" data-aos="fade-left">
+                    Model S
+                  </button>
+                  <button class="py-2 px-6 font-bold text-btnRed bg-white border   border-btnRed rounded-full" data-aos="fade-left">
+                    Model X
+                  </button>
+                </div>
+                <div class="flex space-x-4 ">
+                  <button class="py-2 px-6 font-bold text-btnRed bg-white border   border-btnRed rounded-full" data-aos="fade-left">
+                    Electric Vehicle
+                  </button>
+                  <button class="py-2 px-6 font-bold text-btnRed bg-white border   border-btnRed rounded-full" data-aos="fade-left">
+                    Tesla
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         
+
+        </section>
+        <section>
+          <h1 class="text-5xl font-bold mb-6 text-sectionColor" data-aos="fade-right">
+            Specification
+          </h1>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 py-[55px] ">
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black" data-aos="fade-up">
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+            <div class="relative h-[300px] sm:h-[400px] rounded-md border bg-gradient-to-t from-black  " data-aos="fade-up" >
+              <span class="uppercase absolute top-4 left-4 py-[3px] px-[7px] bg-[#F6F7FB] text-btnRed rounded-md ">
+                New
+              </span>
+              <img class="w-full h-full" src="" alt="">
+              <div class="absolute w-full bottom-2 left-0 text-center text-white">
+                <h1 class="font-bold text-2xl">Model SV</h1>
+                <p class="text-sm my-2">Esemka Car</p>
+                <h1 class="font-bold text-2xl text-btnRed">
+                  $12000
+                </h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-[105px]">
+          <h1 class="font-bold text-5xl text-black text-center mb-6">Subscribe Our News Letter</h1>
+              <p class="font-medium text-base text-center text-pcolor mb-[56px]">
+                  You can read our news letter and get free knowledge
+              </p>
+            <div class="container flex justify-between items-center flex-wrap space-y-6">
+                <div>
+                      <p class="font-medium text-base text-inputcolor mb-[21px] ">your name</p>
+                      <input type="text" placeholder="imput your name" class="lg:font-normal text-base text-pcolor py-4 pl-4 pr-[270px] border rounded-lg  border-border-color md:w-full">
+                </div>
+                <div>
+                  <p class="font-medium text-base text-inputcolor mb-[21px] text-start">your email</p>
+                  <input type="text" placeholder="imput your email" class="lg:font-normal text-base text-pcolor py-4 rounded-lg pl-4 pr-[270px] border  border-border-color md:w-full">
+                </div>
+                <div class="flex justify-end ">
+                  <button class="py-[14.5px] px-6 font-bold text-white bg-btnRed rounded-lg items-end md:w-full">
+                      Subscribe
+                  </button>
+                </div>
+              
+              
+            </div>
+        </section>
+      </div>
+    </main>
+    <footer class="pt-[89px]  bg-btnRed">
+      <div class="container grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-12">
+          <div class="col-span-3 md:col-span-1">
+              <img src="./project/images/02.png" alt="" class="mb-6">
+              <p class="font-medium text-sm text-white">OurStudio is a digital agency
+                UI / UX Design and Website
+                <br>
+                Development located in Ohio,
+                <br>
+                United States of America</p>
+          </div>
+          <div class="">
+              <h1 class="font-bold text-base text-white mb-[29px]">Company</h1>
+              <p class="font-medium text-sm text-white mb-6 ">home</p>
+              <p class="font-medium text-sm text-white mb-6">home</p>
+              <p class="font-medium text-sm text-white mb-6">home</p>
+              <p class="font-medium text-sm text-white mb-6">home</p>
+              <p class="font-medium text-sm text-white">home</p>
+          </div>
+          
+          <div class="">
+            <h1 class="font-bold text-base text-white  mb-[29px]">Company</h1>
+            <p class="font-medium text-sm text-white mb-6 ">home</p>
+            <p class="font-medium text-sm text-white mb-6">home</p>
+            <p class="font-medium text-sm text-white mb-6">home</p>
+            <p class="font-medium text-sm text-white mb-6">home</p>
+            <p class="font-medium text-sm text-white">home</p>
+        </div>
+        <div class="col-span-3 md:col-span-1">
+            <div class="flex   mb-[22px]">
+                <img src="./project/icon/Icon (2).png" alt="" class="mr-3 w-6 h-6">
+                <p class="font-medium text-sm text-white">221 B Santa Monica, Los Angeles</p>
+            </div>
+            <div class="flex mb-[22px]">
+                <img src="./project/icon/Location Map Marker.png" alt="" class="mr-3 w-6 h-6">
+                <p class="font-medium text-sm text-white">221 B Santa Monica, Los Angeles</p>
+            </div>
+            <div class="flex">
+                <img src="./project/icon/Phone.png" alt="" class="mr-3 w-6 h-6">
+                <p class="font-medium text-sm text-white">221 B Santa Monica, Los Angeles</p>
+            </div>
+        </div>
+         
+      </div>
+      <div class="text-center md:text-start container">
+        <p class="font-normal text-base text-white mt-[46px] pb-9">Copyright Tanah Air Studio</p>
+      </div>
+  </footer>
+  </div>
+
+  <script src="./project/plugins/aos/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
